@@ -1,0 +1,48 @@
+@media (max-width:1024px) {
+    body {
+        padding: 25px;
+        background : yellow;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    .folder {
+       width: 90%;
+    }
+    .item {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width:600px) {
+    body {
+        padding: 18px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .back {
+font-size: 16px;
+
+    }
+    .folder {
+        width: 100%;
+        padding: 18px;
+        margin: 18px auto;
+        border-radius: 18px;
+    }
+    .folder h2 {
+        font-size: 24px;
+    }
+    .items {
+        margin-left: 0;
+    }
+    .item {
+        width: 100%;
+        padding: 12px;
+        font-size: 15px;
+        box-sizing: border-box;
+    }
+    
+}
